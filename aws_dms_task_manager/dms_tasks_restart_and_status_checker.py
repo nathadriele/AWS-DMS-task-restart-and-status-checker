@@ -43,6 +43,7 @@ def restart_task(client, task_arn):
         Filters=[{'Name': 'replication-task-arn', 'Values': [task_arn]}]
     )
     status = task_status["ReplicationTasks"][0]["Status"]
+    print(f'Task {task_arn} Status: {status}')
     
     return status
 
