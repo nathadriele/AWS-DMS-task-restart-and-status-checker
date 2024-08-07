@@ -52,7 +52,7 @@ def test_output(output, *args) -> None:
     """
     Test if the tasks were restarted correctly and if the expected statuses were returned.
     """
-    expected_status = 'starting'  # Assuming the initial expected status after restarting is 'starting'
+    expected_status = 'starting'
 
     # Check if the output is a dictionary
     assert isinstance(output, dict), 'Output is not a dictionary'
