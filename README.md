@@ -48,6 +48,4 @@ To test the script, ensure you have appropriate credentials and ARNs configured.
 
 #### Contribution to Data Engineering
 
-This script demonstrates best practices in data engineering, including:
-
 This script provides a practical solution for managing AWS DMS tasks by automating task restarts and status checks. It integrates with cloud services using Boto3 and includes automated testing to ensure accurate execution. These features support efficient data migration data engineering practices.
