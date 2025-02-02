@@ -1,5 +1,7 @@
 ## AWS DMS Task Restart and Status Checker
 
+![image](https://github.com/user-attachments/assets/acfcc531-b816-43b7-b69e-72f195ed80a6)
+
 ### Overview
 
 The AWS DMS Task Restart and Status Checker is a Python script designed to restart multiple AWS Database Migration Service (DMS) tasks and verify their statuses. This script leverages AWS SDK (Boto3) and Mage.ai for seamless integration and management of DMS tasks, ensuring efficient and reliable task handling.
@@ -42,10 +44,12 @@ The `restart_task` function handles the logic for restarting a specific DMS task
 
 The `test_output` function is decorated with `@test` and is used to validate the functionality of the `load_data` function. It ensures that the output is a dictionary and that each task has the expected status `('starting')`.
 
-#### Testing
+### Testing
 
 To test the script, ensure you have appropriate credentials and ARNs configured. Then, run the script and observe the printed outputs for task restart confirmations and statuses. The `test_output` function will validate the results automatically.
 
-#### Contribution to Data Engineering
+### Contribution to Data Engineering
 
-This script provides a practical solution for managing AWS DMS tasks by automating task restarts and status checks. It integrates with cloud services using Boto3 and includes automated testing to ensure accurate execution. These features support efficient data migration data engineering practices.
+This script offers a streamlined approach to managing AWS DMS tasks by automating restarts and status checks. It leverages Boto3 for seamless cloud integration and incorporates automated testing to guarantee reliable execution. These capabilities enhance efficiency in data migration and data engineering workflows.
+
+Contributions are welcome!
