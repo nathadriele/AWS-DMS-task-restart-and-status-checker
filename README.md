@@ -1,6 +1,6 @@
 ## AWS DMS Task Restart and Status Checker
 
-![image](https://github.com/user-attachments/assets/acfcc531-b816-43b7-b69e-72f195ed80a6)
+![image](https://github.com/user-attachments/assets/65e7533a-8dee-4b55-9d05-b9db9905421e)
 
 ### Overview
 
