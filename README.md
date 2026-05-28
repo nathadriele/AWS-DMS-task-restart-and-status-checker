@@ -1,6 +1,6 @@
 ## AWS DMS Task Restart and Status Checker
 
-![image](https://github.com/user-attachments/assets/65e7533a-8dee-4b55-9d05-b9db9905421e)
+<img width="928" height="610" alt="image" src="https://github.com/user-attachments/assets/879e52f2-59f7-402f-8bdf-990ef46a5d71" />
 
 ### Overview
 
@@ -30,7 +30,7 @@ Make sure you have boto3 and mage-ai installed:
 pip install boto3 mage-ai
 ```
 
-### Code Explanation
+### Code
 
 #### Load Data Function
 
