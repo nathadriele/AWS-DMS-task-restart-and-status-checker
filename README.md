@@ -1,4 +1,4 @@
-# AWS DMS Task Restart and Status Checker
+# AWS DMS Task Restart and Status Checker (Backup)
 
 <img width="727" height="357" alt="image" src="https://github.com/user-attachments/assets/0ba6aa30-893a-49a8-98e2-3c6db1d617e3" />
 
@@ -153,7 +153,7 @@ Example output:
 }
 ```
 
-## Option 2: Check Status Before Restarting
+### Option 2: Check Status Before Restarting
 
 This approach checks the current status of a DMS replication task before deciding whether to restart it.
 
@@ -269,9 +269,4 @@ This project contributes to data engineering workflows by automating the operati
 
 By integrating AWS DMS, Boto3, and Mage.ai, the project demonstrates a practical approach to building cloud-native automation for ETL and data migration pipelines.
 
-## Repository
-
-```bash
-https://github.com/nathadriele/AWS-DMS-task-restart-and-status-checker
-```
 
